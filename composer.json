@@ -21,6 +21,9 @@
             "no-api": true
         }
     },
+    "config": {
+	"process-timeout": 0
+    },
     "extra": {
         "installer-paths": {
             "docroot/core": [
