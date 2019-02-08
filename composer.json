@@ -4,6 +4,7 @@
     "type": "project",
     "license": "GPL-2.0+",
     "minimum-stability": "dev",
+    "prefer-stable": false,
     "require": {
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "^1.6.0",
