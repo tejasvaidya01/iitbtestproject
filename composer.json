@@ -8,8 +8,7 @@
     "require": {
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "^1.6.0",
-        "IITBombayWeb/acadmixdistprofile": "dev-dev-test",
-        "tejasvaidya01/acadmix_event": "dev-master",
+        "IITBombayWeb/acadmixdistprofile": "dev-dev-test"
     },
     "repositories": {
         "drupal": {
@@ -19,11 +18,6 @@
         "dev": {
             "type": "github",
             "url": "https://github.com/IITBombayWeb/acadmixdistprofile",
-            "no-api": true
-        },
-        "dev1": {
-            "type": "github",
-            "url": "https://github.com/tejasvaidya01/acadmix_event",
             "no-api": true
         }
     },
