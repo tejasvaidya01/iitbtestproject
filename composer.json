@@ -4,10 +4,12 @@
     "type": "project",
     "license": "GPL-2.0+",
     "minimum-stability": "dev",
-    "prefer-stable": false,
+    "prefer-stable": true,
     "require": {
         "drupal-composer/drupal-scaffold": "^2.0.0",
-        "cweagans/composer-patches": "^1.6.0",
+        "cweagans/composer-patches": "^1.6.0"
+    },
+    "require-dev": {
         "IITBombayWeb/acadmixdistprofile": "dev-dev-test"
     },
     "repositories": {
