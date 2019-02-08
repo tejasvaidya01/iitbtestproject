@@ -9,7 +9,7 @@
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "^1.6.0",
         "IITBombayWeb/acadmixdistprofile": "dev-dev-test",
-        "tejasvaidya01/acadmix_event": "@dev",
+        "tejasvaidya01/acadmix_event": "dev-master",
     },
     "repositories": {
         "drupal": {
