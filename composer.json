@@ -9,7 +9,10 @@
         "drupal/core": "8.6.6",
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "^1.6.0",
-        "IITBombayWeb/acadmixdistprofile": "0.1.0-alpha",
+        "wikimedia/composer-merge-plugin": "^1.4",
+        "drupal/console": "~1.0",
+        "drush/drush": "^8.0",
+        "IITBombayWeb/acadmixdistprofile": "0.1.1-alpha",
         "tejasvaidya01/acadmix_event": "~0.1.0",
         "tejasvaidya01/acadmix_news": "~0.1.0",
         "tejasvaidya01/acadmix_faculty": "~0.1.0"
@@ -41,9 +44,17 @@
         }
     },
     "config": {
-	"process-timeout": 0
+        "process-timeout": 0
     },
     "extra": {
+        "merge-plugin": {
+            "include": [
+                "docroot/profiles/contrib/acadmixdistprofile/composer.json"
+            ],
+            "recurse": true,
+            "replace": false,
+            "merge-extra": false
+        },
         "installer-paths": {
             "docroot/core": [
                 "type:drupal-core"
