@@ -11,7 +11,8 @@
         "IITBombayWeb/acadmixdistprofile": "0.1.0-alpha",
         "tejasvaidya01/acadmix_event": "~0.1.0",
         "tejasvaidya01/acadmix_news": "~0.1.0",
-        "tejasvaidya01/acadmix_faculty": "~0.1.0"
+        "tejasvaidya01/acadmix_faculty": "~0.1.0",
+        "slick": "1.9.0",
     },
     "repositories": {
         "drupal": {
@@ -37,6 +38,18 @@
             "type": "github",
             "url": "https://github.com/tejasvaidya01/acadmix_faculty",
             "no-api": true
+        },
+        "slick": {
+            "type": "package",
+            "package": {
+                "name": "slick",
+                "version": "v1.9.0",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/kenwheeler/slick/archive/master.zip",
+                    "type": "zip"
+                }
+            }
         }
     },
     "config": {
