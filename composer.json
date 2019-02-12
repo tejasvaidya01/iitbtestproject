@@ -9,9 +9,9 @@
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "^1.6.0",
         "IITBombayWeb/acadmixdistprofile": "0.1.0-alpha",
-        "tejasvaidya01/acadmix_event": "0.1.0-alpha",
-        "tejasvaidya01/acadmix_news": "0.1.0-alpha",
-        "tejasvaidya01/acadmix_faculty": "0.1.0-alpha"
+        "tejasvaidya01/acadmix_event": "~0.1.0",
+        "tejasvaidya01/acadmix_news": "~0.1.0",
+        "tejasvaidya01/acadmix_faculty": "~0.1.0"
     },
     "repositories": {
         "drupal": {
