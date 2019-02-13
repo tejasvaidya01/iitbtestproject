@@ -12,7 +12,7 @@
         "wikimedia/composer-merge-plugin": "^1.4",
         "drupal/console": "~1.0",
         "drush/drush": "^8.0",
-        "IITBombayWeb/acadmixdistprofile": "~0.1.0"
+        "IITBombayWeb/acadmixdistprofile": "0.1.4"
     },
     "repositories": {
         "drupal": {
