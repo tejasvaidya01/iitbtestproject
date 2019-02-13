@@ -12,6 +12,8 @@
         "wikimedia/composer-merge-plugin": "^1.4",
         "drupal/console": "~1.0",
         "drush/drush": "^8.0",
+        "npm-asset/slick": "~1.0",
+        "npm-asset/blazy": "~1.0",
         "IITBombayWeb/acadmixdistprofile": "~0.1.0",
         "tejasvaidya01/acadmix_event": "~0.1.0",
         "tejasvaidya01/acadmix_news": "~0.1.0",
@@ -21,6 +23,10 @@
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        "asset": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
         },
         "acadmixdist": {
             "type": "github",
@@ -55,12 +61,13 @@
             "replace": false,
             "merge-extra": false
         },
+        "installer-types": ["bower-asset", "npm-asset"],
         "installer-paths": {
             "docroot/core": [
                 "type:drupal-core"
             ],
             "docroot/libraries/{$name}": [
-                "type:drupal-library"                
+                "type:drupal-library","type:bower-asset", "type:npm-asset"              
             ],
             "docroot/modules/contrib/{$name}": [
                 "type:drupal-module"
