@@ -12,10 +12,7 @@
         "wikimedia/composer-merge-plugin": "^1.4",
         "drupal/console": "~1.0",
         "drush/drush": "^8.0",
-        "IITBombayWeb/acadmixdistprofile": "~0.1.0",
-        "tejasvaidya01/acadmix_event": "~0.1.0",
-        "tejasvaidya01/acadmix_news": "~0.1.0",
-        "tejasvaidya01/acadmix_faculty": "~0.1.0"
+        "IITBombayWeb/acadmixdistprofile": "~0.1.0"
     },
     "repositories": {
         "drupal": {
@@ -25,21 +22,6 @@
         "acadmixdist": {
             "type": "github",
             "url": "https://github.com/IITBombayWeb/acadmixdistprofile",
-            "no-api": true
-        },
-        "event": {
-            "type": "github",
-            "url": "https://github.com/tejasvaidya01/acadmix_event",
-            "no-api": true
-        },
-        "news": {
-            "type": "github",
-            "url": "https://github.com/tejasvaidya01/acadmix_news",
-            "no-api": true
-        },
-        "faculty": {
-            "type": "github",
-            "url": "https://github.com/tejasvaidya01/acadmix_faculty",
             "no-api": true
         }
     },
